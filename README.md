@@ -1,5 +1,6 @@
-📦 Product Management – Full Stack Dockerized Application
-📌 Project Overview
+📦 Product Management – Full Stack Dockerized Application.
+
+📌 Project Overview.
 This project is a full-stack Product Management application built using:
 1-Frontend: React (Vite)
 2-Backend: Spring Boot (REST API)
