@@ -1,14 +1,17 @@
 📦 Product Management – Full Stack Dockerized Application.
 
 📌 Project Overview.
+
 This project is a full-stack Product Management application built using:
 1-Frontend: React (Vite)
 2-Backend: Spring Boot (REST API)
 3-Database: MySQL
 4-Containerization: Docker & Docker Compose
+
 The entire application (Frontend + Backend + Database) runs using a single command: docker-compose up --build
 
 Work Flow/Architecture
+
 Browser
    ↓
 React Frontend (nginx container)
@@ -17,10 +20,12 @@ Spring Boot Backend (Docker container)
    ↓
 MySQL Database (Docker container + volume)
 
+
 ->The frontend communicates with the backend via REST APIs.
 -> The backend connects to MySQL.
 -> MySQL data is persisted using Docker volumes.
 -> Docker Compose orchestrates all services.
+
 
 🐳 Docker Setup
 1-Multi-Stage Dockerfile (Frontend)
@@ -43,10 +48,12 @@ MySQL Database (Docker container + volume)
 -persistent volume for MySQL
 >All services run together using a single command.
 
+
 🚀 How to Run the Application
 -> Prerequisites
 - Docker installed
 - Docker Compose installed
+
 
 Steps:
 1- Clone the Repo
