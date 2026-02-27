@@ -10,6 +10,22 @@ This project is a full-stack Product Management application built using:
 
 The entire application (Frontend + Backend + Database) runs using a single command: docker-compose up --build
 
+🎯 What This Project Does
+
+This is a basic CRUD (Create, Read, Update, Delete) application that allows users to:
+
+➕ Add new products
+📋 View all products
+❌ Delete products(under development)
+Each product contains:
+ID
+Name
+Price
+Quantity
+
+The frontend interacts with the backend via REST APIs, and all data is stored in a MySQL database running inside Docker.
+
+
 Work Flow/Architecture
 
 Browser
